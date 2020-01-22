@@ -23,6 +23,9 @@
     "@gnosis.pm/dex-contracts": "^0.1.4",
     "@gnosis.pm/owl-token": "^3.1.0",
     "@gnosis.pm/solidity-data-structures": "^1.2.2",
-    "@gnosis.pm/util-contracts": "^2.0.6"
+    "@gnosis.pm/util-contracts": "^2.0.6",
+    "dotenv": "^8.0.0",
+    "truffle": "5.0.24",
+    "@truffle/contract": "^4.0.31"
   }
 }
