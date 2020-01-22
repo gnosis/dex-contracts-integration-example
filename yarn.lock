@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-"@gnosis.pm/dex-contracts@^0.1.3":
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/@gnosis.pm/dex-contracts/-/dex-contracts-0.1.3.tgz#8474ed83c879a3c3a22ce13741e3ad43dac6dd68"
-  integrity sha512-HRRw+AGZYe6almCQRj8pNL1AELLnkvB1jqLs20faaoISy+5f9I4nsgHbkw9qzxi/R8NQ8pAc/wIx4rvH7hSeCw==
+"@gnosis.pm/dex-contracts@^0.1.4":
+  version "0.1.4"
+  resolved "https://registry.yarnpkg.com/@gnosis.pm/dex-contracts/-/dex-contracts-0.1.4.tgz#42c3669fb8ad21fd3c9fc16fa8ece5da6d11c916"
+  integrity sha512-IzzTPj/EhWYPIo4jQnNmbKyXrIaTGpwPKBYDHJfNH6xZZ95WX/v2ukRNTEzCCcweru9xI2jzjwx+ZCJvOD9cTw==
   dependencies:
-    bn.js "^5.0.0"
+    bn.js "^5.1.1"
 
 "@gnosis.pm/gno-token@^2.0.0":
   version "2.0.0"
@@ -892,7 +892,7 @@ bn.js@4.11.8, bn.js@^4.0.0, bn.js@^4.1.0, bn.js@^4.1.1, bn.js@^4.11.0, bn.js@^4.
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-4.11.8.tgz#2cde09eb5ee341f484746bb0309b3253b1b1442f"
   integrity sha512-ItfYfPLkWHUjckQCk8xC+LwxgK8NYcXywGigJgSwOP8Y2iyWT4f2vsZnoOXTTbo+o5yXmIUJ4gn5538SO5S3gA==
 
-bn.js@^5.0.0:
+bn.js@^5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/bn.js/-/bn.js-5.1.1.tgz#48efc4031a9c4041b9c99c6941d903463ab62eb5"
   integrity sha512-IUTD/REb78Z2eodka1QZyyEk66pciRcP6Sroka0aI3tG/iwIdYLrBD62RsubR7vqdt3WyX8p4jxeatzmRSphtA==
@@ -4522,9 +4522,9 @@ web3-net@1.2.4:
     web3-core-method "1.2.4"
     web3-utils "1.2.4"
 
-"web3-provider-engine@git+https://github.com/trufflesuite/provider-engine.git#web3-one":
+"web3-provider-engine@https://github.com/trufflesuite/provider-engine#web3-one":
   version "14.0.6"
-  resolved "git+https://github.com/trufflesuite/provider-engine.git#3538c60bc4836b73ccae1ac3f64c8fed8ef19c1a"
+  resolved "https://github.com/trufflesuite/provider-engine#3538c60bc4836b73ccae1ac3f64c8fed8ef19c1a"
   dependencies:
     async "^2.5.0"
     backoff "^2.5.0"
