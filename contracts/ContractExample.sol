@@ -1,8 +1,10 @@
 pragma solidity >=0.5.0;
-
+import "./BatchExchangeInterface.sol";
 contract ContractExample {
-    address public batchExchange;
-    constructor(address _batchExchange) public {
+    BatchExchangeInterface public batchExchange;
+    uint256 public initialBatchId;
+    constructor(BatchExchangeInterface _batchExchange) public {
         batchExchange = _batchExchange;
+        initialBatchId = batchExchange.getCurrentBatchId();
     }
 }
