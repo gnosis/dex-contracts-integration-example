@@ -20,7 +20,7 @@
   },
   "devDependencies": {},
   "dependencies": {
-    "@gnosis.pm/dex-contracts": "/Users/alexherrmann/gnosis/dex-contracts/",
+    "@gnosis.pm/dex-contracts": "^0.2.1",
     "@gnosis.pm/owl-token": "^3.1.0",
     "@gnosis.pm/solidity-data-structures": "^1.2.2",
     "@gnosis.pm/util-contracts": "^2.0.6",
