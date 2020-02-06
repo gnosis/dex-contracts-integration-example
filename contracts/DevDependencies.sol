@@ -10,5 +10,6 @@ import "@gnosis.pm/owl-token/contracts/TokenOWLProxy.sol";
 import "@gnosis.pm/owl-token/contracts/TokenOWL.sol";
 import "@gnosis.pm/solidity-data-structures/contracts/libraries/IdToAddressBiMap.sol";
 import "@gnosis.pm/solidity-data-structures/contracts/libraries/IterableAppendOnlySet.sol";
+import "@gnosis.pm/safe-contracts/contracts/GnosisSafe.sol";
 
 contract DevDependencies {}
