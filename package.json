@@ -18,7 +18,9 @@
     "prettier:js": "prettier --write './**/*.js'",
     "pretty-check": "prettier --check 'contracts/**/*.sol' && prettier --check './**/*.js'"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@gnosis.pm/safe-contracts": "^1.1.1"
+  },
   "dependencies": {
     "@gnosis.pm/dex-contracts": "^0.2.1",
     "@gnosis.pm/owl-token": "^3.1.0",
