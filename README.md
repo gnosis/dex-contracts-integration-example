@@ -1,4 +1,6 @@
-# Minimal project for building on https://github.com/gnosis/dex-contracts
+# Minimal project for building on [dex-contracts](https://github.com/gnosis/dex-contracts)
+
+*Disclaimer: This repository has been archived and is no longer supported*
 
 This project should serve as a basis for every project intending to build on https://github.com/gnosis/dex-contracts. It provides a minimal framework to successfully deploy the BatchExchange for testing.
 
